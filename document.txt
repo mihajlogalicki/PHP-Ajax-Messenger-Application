@@ -1,0 +1,27 @@
+** download and set bootstrap **
+1. go on getbootstrap
+2. download Compiled CSS and JS
+3. copy and paste inside htdocs/php-messenger/assets (css/js) -> must have 
+
+** download and set font-awesome icons **
+1. google - fontawesome
+2. Download Font Awesome
+3. paste inside assets folder and rename in fontawesome
+4. include all.min.css - link for icons
+
+** download and set jQuery & Ajax **
+1. go on jquery.com
+2. click on download 
+3. click on Download the compressed, production jQuery 3.4.1
+4. copy all of this and paste inside js/jquery.min.js (create jquery.min.js)
+
+** PHP Magic methods **
+__construct()
+__destruct() - close database connection
+__toString()
+__autoload() - pozivom ove metode 
+omogucava nam da u samo jednoj liniji koda inlcude-ujemo sve nase fajlove u odredjenom folderu
+ex: "folder/$class_name.php";
+poziva: file1.php, file2.php, file3.php u samo jednoj lini koda!!
+isto radi spl_autoload_register($class_name);
+
